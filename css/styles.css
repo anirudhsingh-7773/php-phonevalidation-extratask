@@ -1,0 +1,54 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.phone-validate {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 500px;
+}
+
+.form-wrapper {
+  background-color: rgb(218, 179, 130);
+  padding: 3rem;
+  border-radius: 10px;
+}
+
+.form-element {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+}
+
+.form-element label {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.form-element input[name="phone"] {
+  background-color: #eeeeee;
+  border: 1px solid black;
+  max-width: 60%;
+  padding: 0.5rem 1rem;
+}
+
+.form-element input[name="submit"] {
+  padding: 10px 20px;
+  font-weight: 600;
+}
+
+.form-element input[name="submit"]:hover {
+  background-color: #d1d1d1;
+}
